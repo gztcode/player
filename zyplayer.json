@@ -1,0 +1,44 @@
+{
+  "sites": {
+      "default": 1,
+      "data": [
+          {
+              "id": 1,
+              "key": "39kan",
+              "name": "39影视",
+              "api": "https://www.39kan.com/api.php/provide/vod/",
+              "type": 1,
+              "search": 1,
+              "playUrl": "",
+              "group": "影视",
+              "isActive": true,
+              "status": true,
+              "categories": ""
+          }
+      ]
+  },
+  "iptv": {
+      "default": 1,
+      "data": [
+          {
+              "id": 1,
+              "name": "APTV",
+              "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+              "epg": "",
+              "type": "remote",
+              "isActive": true
+          }
+      ]
+  },
+  "analyzes": {
+      "default": 2,
+      "data": [
+          {
+              "id": 2,
+              "name": "爱豆",
+              "url": "https://jx.aidouer.net/?url=",
+              "isActive": true
+          }
+      ]
+  }
+}
